@@ -1,3 +1,18 @@
 // Place all the styles related to the Welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@mixin user-select($value) {
+  -webkit-user-select: $value;
+     -moz-user-select: $value;
+      -ms-user-select: $value;
+          user-select: $value;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Taviraj');
+
+.typee {
+  @include user-select(none);
+  font-family: 'Taviraj', serif;
+  line-height: 1.5;
+}

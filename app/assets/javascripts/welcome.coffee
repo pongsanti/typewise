@@ -11,6 +11,5 @@ class window.Welcome
     ctx.stroke()
 
 document.addEventListener("turbolinks:load", ()=>
-  welcome = new window.Welcome
-  welcome.init();
+
 )
