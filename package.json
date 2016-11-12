@@ -1,0 +1,26 @@
+{
+  "name": "typewise",
+  "version": "1.0.0",
+  "description": "An exciting type experience",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pongsanti/typewise.git"
+  },
+  "author": "popsicle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pongsanti/typewise/issues"
+  },
+  "homepage": "https://github.com/pongsanti/typewise#readme",
+  "dependencies": {
+    "browserify": "^13.1.1",
+    "browserify-incremental": "^3.1.1"
+  }
+}
