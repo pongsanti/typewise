@@ -19,7 +19,9 @@
     "url": "https://github.com/pongsanti/typewise/issues"
   },
   "homepage": "https://github.com/pongsanti/typewise#readme",
-  "dependencies": {
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "babelify": "^7.3.0",
     "browserify": "^13.1.1",
     "browserify-incremental": "^3.1.1"
   }

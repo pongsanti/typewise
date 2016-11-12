@@ -13,7 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
+//= require_directory
 
-var foo = require('./foo');
-console.log(foo(2));
+import main from './es2015/main'
+main();
