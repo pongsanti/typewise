@@ -1,13 +1,15 @@
-h1 Let's type
-p Find me in app/views/welcome/index.html.erb
+h1 Thype
+p A hype typing game
 
 .well
-  h3.typee
-    | จะต้องถอยห่างเพียงใดจึงจะมองเห็นภาพทั้งหมดได้? จะต้องย้อนเวลาไปไกลสักแค่ไหน สักกี่ทศวรรษ ก่อนถือกำเนิดมาเป็นตัวตน จึงจะเติมเศษเสี้ยวชีวิตให้ครบถ้วนได้ ทางเลือกอีกสาย เดินดุ่มเข้าไปในเขาวงกต ตั้งแต่หน้าแรกไปจนถึงหน้าสุดท้าย ไม่ว่าชอบหรือชัง คำตอบรอคอยอยู่ในนั้นอย่างพร้อมมูลแล้ว
+  p.typee
+    - @source.split("|").each do |c|
+      - if c.length > 0
+        span =c
 
 form.form-horizontal
   .form-group.form-group-lg
-    label class="col-sm-2 control-label" Type Here! =>
+    label class="col-sm-2 control-label" Type here!! =>
     .col-sm-10
       input.form-control type="text"
 
